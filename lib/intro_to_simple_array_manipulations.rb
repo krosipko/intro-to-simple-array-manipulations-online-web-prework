@@ -22,3 +22,8 @@ def using_shift(arg)
   result = arg
   result.shift
 end
+
+def shift_with_args(arg)
+  result = arg
+  result.shift(2)
+end
