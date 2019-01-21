@@ -50,5 +50,5 @@ end
 
 def using_delete(arg1, arg2)
   result = arg1
-  result.delete(arg2, arg1)
+  result.delete(arg2)
 end
