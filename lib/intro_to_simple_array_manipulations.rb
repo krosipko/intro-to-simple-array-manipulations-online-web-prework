@@ -46,5 +46,8 @@ end
 def using_flatten(arg)
   result = arg
   result.flatten
-  
 end
+
+def using_delete(arg1, arg2)
+  result = arg1
+  result.delete(arg2, arg1)
