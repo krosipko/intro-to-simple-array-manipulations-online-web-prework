@@ -13,7 +13,7 @@ def using_pop(arg1)
   result.pop
 end
 
-def pop_with_args(arg1, arg2)
-  result = arg1
-  result.pop(arg2)
+def pop_with_args(arg)
+  result = arg
+  result.pop(2)
 end
