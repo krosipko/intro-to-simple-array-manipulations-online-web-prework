@@ -29,5 +29,6 @@ def shift_with_args(arg)
 end
 
 def using_concat(arg1, arg2)
-  
+  result = arg1
+  result.concat(arg2)
 end
