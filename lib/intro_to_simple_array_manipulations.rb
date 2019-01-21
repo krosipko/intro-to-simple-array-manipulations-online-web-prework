@@ -27,3 +27,7 @@ def shift_with_args(arg)
   result = arg
   result.shift(2)
 end
+
+def using_concat(arg1, arg2)
+  
+end
