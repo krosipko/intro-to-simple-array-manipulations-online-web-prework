@@ -12,3 +12,6 @@ def using_pop(arg1)
   result = arg1
   result.pop
 end
+
+def pop_with_args(arg1, arg2)
+  arg1.pop(arg2)
