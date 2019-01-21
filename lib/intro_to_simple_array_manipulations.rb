@@ -35,5 +35,5 @@ end
 
 def using_insert(arg1, arg2)
   result = arg1
-  result.insert(arg2, 4)
+  result.insert(4, arg2)
 end
