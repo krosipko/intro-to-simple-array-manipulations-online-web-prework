@@ -15,3 +15,4 @@ end
 
 def pop_with_args(arg1, arg2)
   arg1.pop(arg2)
+end
