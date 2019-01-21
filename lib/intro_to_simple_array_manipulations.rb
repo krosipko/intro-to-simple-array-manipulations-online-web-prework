@@ -32,3 +32,8 @@ def using_concat(arg1, arg2)
   result = arg1
   result.concat(arg2)
 end
+
+def using_insert(arg1, arg2)
+  result = arg1
+  result.insert(arg2, 4)
+end
