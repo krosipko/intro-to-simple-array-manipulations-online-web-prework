@@ -52,3 +52,8 @@ def using_delete(arg1, arg2)
   result = arg1
   result.delete(arg2)
 end
+
+def using_delete_at(arg1, arg2)
+  result = arg1
+  result.using_delete_at(arg2)
+end
