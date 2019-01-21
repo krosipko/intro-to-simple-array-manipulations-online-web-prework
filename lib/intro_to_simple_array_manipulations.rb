@@ -37,3 +37,8 @@ def using_insert(arg1, arg2)
   result = arg1
   result.insert(4, arg2)
 end
+
+def using_uniq(arg)
+  result = arg
+  result.uniq
+end
