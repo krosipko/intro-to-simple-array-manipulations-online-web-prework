@@ -42,3 +42,9 @@ def using_uniq(arg)
   result = arg
   result.uniq
 end
+
+def using_flatten(arg)
+  result = arg
+  result.flatten
+  
+end
