@@ -17,3 +17,8 @@ def pop_with_args(arg)
   result = arg
   result.pop(2)
 end
+
+def using_shift(arg)
+  result = arg
+  result.shift
+end
